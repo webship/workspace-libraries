@@ -1,7 +1,7 @@
 {
   "name": "@webship.co/workspace-libraries",
   "version": "1.0.0-alpha1",
-  "description": "The Libraries workspace for Webship Workspace: the `libraries/` folder (type code), its settings file, its 6 commands and its docs, activated as a plugin.",
+  "description": "The Libraries workspace for Webship Workspace: the `libraries/` folder (type code), its settings file, its 0 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "license": "ISC",
@@ -29,14 +29,7 @@
     "workspace": {
       "key": "libraries",
       "settingsTemplate": "config/workspace.libraries.settings.yml",
-      "files": [
-        "commands/cmd-tool-git-change-filemode-to-false.sh",
-        "commands/cmd-tools-checks.sh",
-        "commands/cmd-tools-graphify.sh",
-        "commands/cmd-tools-obsidian.sh",
-        "commands/cmd-tools-ragify.sh",
-        "commands/cmd-tools-reclaim.sh"
-      ],
+      "files": [],
       "docs": [
         "docs/AGENTS.md",
         "docs/CLAUDE.md",
