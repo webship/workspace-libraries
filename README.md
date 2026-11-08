@@ -1,4 +1,4 @@
-# @webship/workspace-libraries
+# @webship.co/workspace-libraries
 
 The **Libraries** workspace of the [Webship Workspace](https://github.com/webship/workspace) dashboard:
 the `libraries/` folder (type `code`), its settings file (`core/config/workspace.libraries.settings.yml`),
