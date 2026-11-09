@@ -1,6 +1,6 @@
 {
   "name": "@webship.co/workspace-libraries",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "The Libraries workspace for Webship Workspace: the `libraries/` folder (type code), its settings file, its 3 commands and its docs, activated as a plugin.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
