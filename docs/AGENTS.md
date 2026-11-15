@@ -30,3 +30,13 @@ bash cmd-tools-ragify.sh                              # Index a project in this 
 
 Every one locates the workspace from its own path, so there is nothing to export and nothing to
 install. `--help` on any of them lists its arguments.
+
+## AI items for this folder
+
+The plugin of this folder (`@webship.co/workspace-libraries`) places its own AI items in the AI folders of the
+workspace, when they are active:
+
+- `libraries-keeper` (`ai-agents/`): Looks after the third-party libraries of `libraries/`: what is there, which version, from where; runs the checks a library declares; never edits one in place
+- `libraries-workflow` (`ai-skills/`): How work is done in `libraries/`: see what is there, add as published, check, leave as published; the commands with their flags, the settings keys
+- `/libraries-check` (`ai-commands/`): `/libraries-check <library> [checks]`: prints the plan, runs the checks the library declares and says what is red and why
+- `libraries-inventory` (`ai-prompts/`): A new session that lists the libraries on disk with the version, the origin and the licence of each
