@@ -1,6 +1,6 @@
 ---
 name: libraries-keeper
-description: Use this agent to look after the third-party libraries kept in the `libraries/` folder of the Webship Workspace: say what is there, at which version and from where, run the code-quality checks a library declares with `cmd-tools-checks.sh`, and do the folder's housekeeping. It never edits a library in place and never deletes one unasked. Invoke for "which libraries do we have on disk", "what version of this library is here", "run the checks of this library", or "fix the file mode noise in libraries".
+description: Use this agent to look after the third-party libraries kept in the `libraries/` folder of the Webship Workspace — say what is there, at which version and from where, run the code-quality checks a library declares with `cmd-tools-checks.sh`, and do the folder's housekeeping. It never edits a library in place and never deletes one unasked. Invoke for "which libraries do we have on disk", "what version of this library is here", "run the checks of this library", or "fix the file mode noise in libraries".
 model: fable
 tools:
   - Bash
